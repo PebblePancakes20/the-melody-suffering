@@ -142,9 +142,9 @@ p {
 Config.saves.autosave = true;</script><tw-tag name="DON&#39;T-TOUCH-ME" color="red"></tw-tag><tw-tag name="stay" color="blue"></tw-tag><tw-tag name="monster" color="yellow"></tw-tag><tw-passagedata pid="1" name="Junco&#39;s POV" tags="stay" position="300,0" size="100,100">&lt;span class=&quot;big-font&quot;&gt; PROLOGUE &lt;/span&gt;
 //WARNINGS FOR: Death, blood, gore.//
 
-&quot;@@.cheetah;Be careful over there, Junco!@@&quot; A woman called over to a man who was walking away.
+@@.cheetah;&quot;Be careful over there, Junco!&quot;@@ A woman called over to a man who was walking away.
 
-&quot;@@.junco;I will, Cheetah, worry about yourself!@@&quot; He called back in a teasing tone, &quot;Don&#39;t get attacked!&quot;
+@@.junco;&quot;I will, Cheetah, worry about yourself!&quot;@@ He called back in a teasing tone, @@.junco;&quot;Don&#39;t get attacked!&quot;@@
 
 Cheetah nodded with a small smirk, her steps quick and swift just like her namesake.
 
@@ -248,7 +248,9 @@ She fumbled in her belt to grab her flashlight, eyes darting around to try and f
 &lt;&lt;set $isGazing to false&gt;&gt;
 &lt;&lt;set $hasLightSource to true&gt;&gt;
 &lt;&lt;endnobr&gt;&gt;
-[[That&#39;s when she spotted it.]]</tw-passagedata><tw-passagedata pid="17" name="StoryInit" tags="DON&#39;T-TOUCH-ME" position="800,0" size="100,100">&lt;&lt;cacheaudio &quot;prologue&quot; &quot;audio/prolouge.mp3&quot; &quot;&quot;audio/prolouge.ogg&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Untitled Passage" tags="stay" position="125,0" size="100,100">&lt;&lt;nobr&gt;&gt;
+[[That&#39;s when she spotted it.]]</tw-passagedata><tw-passagedata pid="17" name="StoryInit" tags="DON&#39;T-TOUCH-ME" position="800,0" size="100,100">&lt;&lt;cacheaudio &quot;prologue&quot; &quot;audio/prolouge.mp3&quot; &quot;audio/prolouge.ogg&quot;&gt;&gt;
+
+&lt;&lt;cacheaudio &quot;scream&quot; &quot;audio/scream.mp3&quot; &quot;audio/scream.ogg&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Untitled Passage" tags="stay" position="125,0" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;audio &quot;prologue&quot; volume 0.15 play loop&gt;&gt;
 &lt;&lt;endnobr&gt;&gt;
 
@@ -309,7 +311,8 @@ You are currently at position $obstaclePosition of $courseLength. &lt;&lt;set $h
 &lt;&lt;set $headacheLevel to 0&gt;&gt;
 &lt;&lt;endnobr&gt;&gt;
 
-[[1&lt;-Move Forward]] </tw-passagedata><tw-passagedata pid="27" name="Finally, Cheetah stumbled." tags="" position="125,1500" size="100,100">You&#39;ve reached the end of the obstacle course section, but you have an injury.
+[[1&lt;-Move Forward]] </tw-passagedata><tw-passagedata pid="27" name="Finally, Cheetah stumbled." tags="" position="125,1500" size="100,100">&lt;&lt;audio &quot;prologue&quot; stop&gt;&gt;
+You&#39;ve reached the end of the obstacle course section, but you have an injury.
 &lt;&lt;nobr&gt;&gt; &lt;&lt;set $headacheLevel to 0&gt;&gt; &lt;&lt;set $isGazing to false&gt;&gt; &lt;&lt;set $hasLightSource to true&gt;&gt; &lt;&lt;set $hasLightSource to true&gt;&gt; &lt;&lt;endnobr&gt;&gt;
 
 Cheetah finally felt the mutant&#39;s gaze waver and finally disappear, she groaned as her leg felt a sharp pain. She winced as she got to her feet, struggling to put weight on her right foot. She should probably see a healer about that...
@@ -322,15 +325,14 @@ Her legs shakily tried to stand upright, but her awkwardly turned right ankle re
 
 Blood.
 
-It dripped from the ceiling and as she looked up, she heard a deep groaning sound that sounded too human but still so wrong. As if a person was gasping for breath.
-
-There, up in a web not that high above her head, was Junco in the form of a large mutant spider.
+It dripped from the ceiling and as she looked up, she heard a &lt;&lt;link &quot;roar&quot;&gt;&gt;&lt;&lt;audio &quot;scream&quot; play&gt;&gt;&lt;&lt;/link&gt;&gt; and she froze as she saw the mutated form of a spider Junco.
 
 She couldn&#39;t run, the spider mutant&#39;s jaws opening and snatching her up.
 
 &#39;&#39;CHEETAH HAS DIED&#39;&#39;
 
-[[Prologue Ends]]</tw-passagedata><tw-passagedata pid="28" name="3" tags="" position="275,1500" size="100,100">You&#39;ve reached the end of the obstacle course section!
+[[Prologue Ends]]</tw-passagedata><tw-passagedata pid="28" name="3" tags="" position="275,1500" size="100,100">&lt;&lt;audio &quot;prologue&quot; stop&gt;&gt;
+You&#39;ve reached the end of the obstacle course section!
 &lt;&lt;nobr&gt;&gt; &lt;&lt;set $headacheLevel to 0&gt;&gt; &lt;&lt;set $isGazing to false&gt;&gt; &lt;&lt;set $hasLightSource to true&gt;&gt; &lt;&lt;set $hasLightSource to true&gt;&gt; &lt;&lt;endnobr&gt;&gt;
 
 Cheetah finally felt the mutant&#39;s gaze waver and finally disappear.
@@ -341,9 +343,7 @@ Suddenly, her foot slipped on wet paint and she hurriedly caught the wall before
 
 Blood.
 
-It dripped from the ceiling and as she looked up, she heard a deep groaning sound that sounded too human but still so wrong. As if a person was gasping for breath.
-
-There, up in a web not that high above her head, was Junco in the form of a large mutant spider.
+It dripped from the ceiling and as she looked up, she heard a &lt;&lt;link &quot;roar&quot;&gt;&gt;&lt;&lt;audio &quot;scream&quot; play&gt;&gt;&lt;&lt;/link&gt;&gt; and she froze as she saw the mutated form of a spider Junco.
 
 She couldn&#39;t run, the spider mutant&#39;s jaws opening and snatching her up.
 
